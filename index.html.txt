@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配手机 H5  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试 H5 页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f7ff;
+            font-family: "Microsoft Yahei", sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .box {
+            padding: 40px 30px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px #0000001a;
+        }
+        h1 {
+            color: #224477;
+            margin-bottom: 16px;
+        }
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>✅ GitHub Pages 测试成功</h1>
+        <p>你的静态 H5 页面已经部署完成！</p >
+        <p>适合宣传部活动页面测试</p >
+    </div>
+</body>
+</html>
